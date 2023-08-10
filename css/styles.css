@@ -1,0 +1,64 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #edf1fd;
+    color: #2a2d39;
+    font-size: 16pt;
+  }
+  
+/* Estilos para el menú */
+nav ul {
+  list-style-type: none;
+  background-color: #edf1fd;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block; /* Muestra los elementos en línea */
+  margin-left: 2%; /* Agrega un espacio entre los elementos */
+}
+
+/*Estilo texto de menu principal*/
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #2a2d39;
+}
+
+/* Estilos para el enlace seleccionado */
+nav a.seleccionado {
+  background-color: #555;
+  color: #f7063e;
+}
+
+/* Estilos para los divs de contenido */
+#contenido > div {
+  display: none;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  margin: 20px 20px 20px 20px;
+
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  nav ul {
+    text-align: center; /* Centra los elementos en dispositivos móviles */
+  }
+  
+  nav li {
+    display: block; /* Hace que los elementos se apilen en dispositivos móviles */
+    margin: 10px 0; /* Agrega espacio entre los elementos apilados */
+    
+  }
+
+
+}
